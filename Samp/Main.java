@@ -20,7 +20,7 @@ public class Main {
             currentValue = array[index];
             if(prevValue > currentValue){
                 if(order.equals(""))
-                    order = "descending";
+                    order = "descend";
                 else if(order.equals("ascending")){
                     sorted = false;
                     break;
